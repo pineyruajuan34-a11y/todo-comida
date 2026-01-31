@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Comida</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #000000;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #000000;
+            color: #ffffff;
+            text-align: center;
+            padding: 40px 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #000000;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .description p {
+            font-size: 1.2em;
+            text-align: center;
+        }
+        .menu {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .menu-category {
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 10px;
+            width: 300px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .menu-category h3 {
+            color: #000000;
+            margin-bottom: 15px;
+        }
+        .menu-category ul {
+            list-style: none;
+            padding: 0;
+        }
+        .menu-category li {
+            padding: 5px 0;
+        }
+        .hours {
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .contact {
+            text-align: center;
+        }
+        .whatsapp-btn {
+            display: inline-block;
+            background-color: #000000;
+            color: #ffffff;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            transition: background-color 0.3s;
+        }
+        .whatsapp-btn:hover {
+            background-color: #333333;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #000000;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Todo Comida</h1>
+    </header>
+    <div class="container">
+        <section class="description">
+            <h2>Sobre Nosotros</h2>
+            <p>En Todo Comida, ubicado en el corazón de Ciudad de México, ofrecemos deliciosas pizzas y hamburguesas frescas hechas con ingredientes de calidad. ¡Ven y disfruta de nuestros sabores únicos!</p>
+        </section>
+        <section class="menu">
+            <h2>Nuestro Menú</h2>
+            <div class="menu-category">
+                <h3>Pizzas</h3>
+                <ul>
+                    <li>Margherita: Salsa de tomate, mozzarella y albahaca fresca.</li>
+                    <li>Pepperoni: Pepperoni, queso y salsa de tomate.</li>
+                    <li>Cuatro Quesos: Mezcla de quesos cheddar, mozzarella, parmesano y gorgonzola.</li>
+                </ul>
+            </div>
+            <div class="menu-category">
+                <h3>Hamburguesas</h3>
+                <ul>
+                    <li>Clásica: Carne de res, lechuga, tomate y cebolla.</li>
+                    <li>Con Queso: Carne de res con queso cheddar derretido.</li>
+                    <li>Bacon: Carne de res con tocino crujiente y queso.</li>
+                </ul>
+            </div>
+        </section>
+        <section class="hours">
+            <h2>Horarios de Atención</h2>
+            <p>Lunes a Domingo: 12:00 a 19:00</p>
+        </section>
+        <section class="contact">
+            <h2>Contáctanos</h2>
+            <a href="https://wa.me/0984283841?text=Hola%20Todo%20Comida,%20me%20gustaría%20hacer%20un%20pedido" class="whatsapp-btn">Contactar por WhatsApp</a>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2023 Todo Comida. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
